@@ -1,0 +1,24 @@
+[
+  {
+    "paymentRequest": {
+      "userId": "1234",
+      "amount": "1300",
+      "currency": "USD",
+      "userName":"CiCi"
+    },
+    "paymentResponse": {
+      "httpCode": "200",
+      "userId":"new1234"
+    }
+  },
+  {
+    "paymentRequest": {
+      "userId": "5678",
+      "userName":"Ali"
+    },
+    "paymentResponse": {
+      "httpCode": "500",
+      "userId":"new5678"
+    }
+  }
+]
